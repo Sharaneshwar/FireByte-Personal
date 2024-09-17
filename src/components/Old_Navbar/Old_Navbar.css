@@ -1,0 +1,135 @@
+nav {
+  position: fixed;
+  top: 100px;
+  left: 100px;
+  right: 100px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  transition: top 0.3s ease-in-out;
+}
+
+.sticky {
+  top: 50px !important;
+}
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  width: 25%;
+}
+
+.left .square {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 47px;
+  height: 47px;
+}
+
+.left #company {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.left #company span:last-child {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  letter-spacing: 0;
+  margin-top: -5px;
+}
+
+.left img {
+  height: 32px;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background-color: var(--nav-color);
+  height: 50px;
+  padding: 10px;
+  width: 32%;
+  box-sizing: border-box;
+  backdrop-filter: blur(15px);
+}
+
+.middle a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  font-weight: 400;
+  font-size: 1.15rem;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.separator {
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.right {
+  width: 192px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 25%;
+}
+
+.call-button {
+  border-radius: 50px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  position: relative;
+  transition: width 0.3s ease;
+  width: 50px;
+  height: 50px;
+}
+
+.call-button:hover {
+  width: 60%;
+  transition: width 0.3s ease;
+}
+
+.call-icon {
+  font-size: 18px;
+  /* transition: transform 0.3s ease; */
+}
+
+.call-button:hover .call-text {
+  opacity: 1;
+  display: flex;
+}
+
+.call-text {
+  margin-left: 10px;
+  white-space: nowrap;
+  opacity: 0;
+  display: none;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}

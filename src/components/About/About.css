@@ -1,0 +1,73 @@
+.about-us-container {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1920' height='800' preserveAspectRatio='none' viewBox='0 0 1920 800'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1108%26quot%3b)' fill='none'%3e%3crect width='1920' height='800' x='0' y='0' fill='rgba(250%2c 252%2c 255%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c248 C 32%2c224.2 96%2c150.6 160%2c129 C 224%2c107.4 256%2c141 320%2c140 C 384%2c139 416%2c119 480%2c124 C 544%2c129 576%2c163.8 640%2c165 C 704%2c166.2 736%2c134.4 800%2c130 C 864%2c125.6 896%2c144.6 960%2c143 C 1024%2c141.4 1056%2c106.8 1120%2c122 C 1184%2c137.2 1216%2c217.8 1280%2c219 C 1344%2c220.2 1376%2c133 1440%2c128 C 1504%2c123 1536%2c214.4 1600%2c194 C 1664%2c173.6 1696%2c11.8 1760%2c26 C 1824%2c40.2 1888%2c217.2 1920%2c265L1920 800L0 800z' fill='rgba(250%2c 252%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c484 C 76.8%2c462.2 230.4%2c384 384%2c375 C 537.6%2c366 614.4%2c457.4 768%2c439 C 921.6%2c420.6 998.4%2c275.2 1152%2c283 C 1305.6%2c290.8 1382.4%2c475.4 1536%2c478 C 1689.6%2c480.6 1843.2%2c332.4 1920%2c296L1920 800L0 800z' fill='rgba(236%2c 241%2c 249%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c789 C 192%2c742.4 576%2c557.6 960%2c556 C 1344%2c554.4 1728%2c736 1920%2c781L1920 800L0 800z' fill='rgba(222%2c 235%2c 251%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1108'%3e%3crect width='1920' height='800' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+}
+
+.about-us-container {
+    padding: 0 50px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: black;
+    gap: 30px;
+}
+
+.about-us-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about-us-content {
+    max-width: 55%;
+}
+
+.about-us-content p {
+    font-size: 1.15rem;
+    text-align: justify;
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    #root {
+        gap: 0px;
+    }
+
+    .about-us-container {
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 100px;
+        box-sizing: border-box;
+        height: 95vh;
+        padding: 0 30px;    
+        /* min-height: 100%; */
+        /* max-height: 100vh; */
+    }
+
+    .about-us-content {
+        max-width: 100%;
+    }
+
+    .about-us-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-us-content p {
+        font-size: 1rem;
+    }
+
+    .about-us-image img {
+        max-width: 80%;
+    }
+}

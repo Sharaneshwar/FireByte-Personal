@@ -1,0 +1,66 @@
+[
+  {
+    "product_id": "foodflow",
+    "product_name": "FoodFlow",
+    "product_image": "/assets/images/FoodFlowLogo.png",
+    "tagline": "Standalone Desktop Campus Dining Software",
+    "category": "Desktop Development",
+    "color": "#d24545",
+    "details": "A leading campus dining management system designed to optimize canteen operations. Food Flow offers robust features including subscription and leave management, attendance tracking, and convenient payment installment options. With a focus on efficiency and user satisfaction, FoodFlow is committed to revolutionizing the college dining experience for administrators and students alike.",
+    "discounted_price": "₹12,000",
+    "actual_price": "₹15,000",
+    "images": [
+      {
+        "original": "/assets/images/foodflowresized.png",
+        "thumbnail": "/assets/images/foodflowresized.png"
+      },
+      {
+        "original": "/assets/images/01.avif",
+        "thumbnail": "/assets/images/01.avif"
+      },
+      {
+        "original": "/assets/images/02.gif",
+        "thumbnail": "/assets/images/02.gif"
+      },
+      {
+        "original": "/assets/images/03.avif",
+        "thumbnail": "/assets/images/03.avif"
+      },
+      {
+        "original": "/assets/images/04.avif",
+        "thumbnail": "/assets/images/04.avif"
+      },
+      {
+        "original": "/assets/images/05.avif",
+        "thumbnail": "/assets/images/05.avif"
+      }
+    ],
+    "features": [
+      {
+        "name": "Interactive Dashboard",
+        "description": "The Interactive Dashboard in FoodFlow delivers a clear and dynamic view of campus dining operations. It highlights available dining plans with their pricing and provides detailed customer insights, including totals, active and expired subscriptions, past customers, and those on leave. The dashboard forecasts customer counts for breakfast, lunch, and dinner, with a breakdown of vegetarian and non-vegetarian preferences. It also tracks daily revenue, offers one-click export options, and features QR codes for easy payment processing, enhancing both management efficiency and user convenience.",
+        "image": "/assets/images/02.gif"
+      },
+      {
+        "name": "Comprehensive Reporting",
+        "description": "The Comprehensive Reporting feature in FoodFlow offers a robust suite of reports that cover various aspects of campus dining operations. It consolidates complex data into clear, straightforward reports that highlight key metrics and performance indicators. With intuitive layouts and detailed summaries, this feature enables administrators to analyze trends, track progress, and make data-driven decisions with ease. The reports are designed to be both informative and actionable, helping users quickly identify areas for improvement and opportunities for growth.",
+        "image": "/assets/images/01.avif"
+      },
+      {
+        "name": "Visual Data Insights",
+        "description": "The Visual Data Insights feature in FoodFlow turns data into interactive and visually appealing graphs, pie charts, and other visual elements. This feature makes it easy to interpret and understand complex information by presenting it in a format that is both engaging and informative. By offering dynamic visualizations, it allows users to quickly grasp key trends, compare different data sets, and gain insights at a glance. This visual approach not only enhances data comprehension but also supports more effective decision-making and strategic planning.",
+        "image": "/assets/images/03.avif"
+      },
+      {
+        "name": "Leave Management",
+        "description": "The Leave Management feature in FoodFlow simplifies the process of requesting and managing leave for customers. It provides a user-friendly interface where customers can easily submit leave requests and track their status. Administrators benefit from streamlined leave tracking and management, ensuring that all customer requests are handled efficiently. This feature helps maintain accurate records of dining status and reduces administrative overhead, making it easier for both customers and staff to manage and monitor leave activities seamlessly.",
+        "image": "/assets/images/04.avif"
+      },
+      {
+        "name": "SMS Notifications",
+        "description": "The SMS Notifications feature in FoodFlow enhances communication by automatically sending updates and alerts via SMS. This includes notifications about leave status, subscription changes, and other important information relevant to customers. The feature ensures that users receive timely and direct updates on their mobile devices, improving their overall experience and engagement with the system. By keeping customers informed in real time, SMS Notifications help maintain transparency and reduce the likelihood of missed updates or misunderstandings.",
+        "image": "/assets/images/05.avif"
+      }
+    ]
+  }
+]

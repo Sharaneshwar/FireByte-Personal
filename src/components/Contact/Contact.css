@@ -1,0 +1,84 @@
+.contact-us {
+  margin: auto;
+  width: 70%;
+  padding: 10px;
+}
+
+.contact-us .buttons button {
+  width: 100%;
+  background-color: var(--primary-color);
+}
+
+.contact-us .heading {
+  margin-bottom: 50px;
+}
+
+.select-arrow {
+  position: relative;
+  width: 100%;
+}
+
+.select-arrow select {
+  width: 100%;
+  appearance: none; /* Removes default arrow */
+  padding-right: 30px; /* Space for the arrow */
+  background: white;
+}
+
+.select-arrow::after {
+  content: "\25BC"; /* Unicode for the down arrow */
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: rgb(109, 109, 109);
+}
+
+.contact-us-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 1px solid #cde5ff;
+  background-image: url("https://i.postimg.cc/664LnJ7P/waves.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  padding: 30px 20px;
+}
+
+.contact-us-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  overflow: hidden;
+}
+
+.contact-us-image img {
+  max-height: 40vh;
+  height: auto;
+}
+
+.contact-us-form {
+  flex: 1;
+  width: 100%;
+  min-width: 40%;
+}
+
+@media screen and (max-width: 991px) {
+  .contact-us {
+    width: 90%;
+  }
+
+  .contact-us-image {
+    margin: 50px 10px;
+  }
+
+  .contact-us-image img {
+    max-width: 60vw;
+  }
+}
